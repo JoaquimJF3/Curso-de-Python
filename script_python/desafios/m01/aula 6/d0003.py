@@ -1,0 +1,5 @@
+print('='*20, ' DESAFIO 3', '='*20)
+n1 = int(input('Primeiro número: '))
+n2 = int(input('Segundo número: '))
+s = (n1 + n2)
+print('A Soma entre \033[4;31;40m{} e {}\033[m é igual a \033[1;34m{}\033[m!'.format(n1, n2, s))

@@ -1,0 +1,18 @@
+print('=' * 20, ' DESAFIO 9', '=' * 20)
+# TABUADA v.1.0
+tab = int(input('Digite um Número pra ver sua Tabuada: '))
+print('-' * 15)
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 1, tab * 1))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 2, tab * 2))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 3, tab * 3))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 4, tab * 4))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 5, tab * 5))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 6, tab * 6))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 7, tab * 7))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 8, tab * 8))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 9, tab * 9))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 10, tab * 10))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 11, tab * 11))
+print('\033[1;34;40m{} x {:2} = {}\033[m'.format(tab, 12, tab * 12))
+print('-' * 15)
+# Joaquim Fernandes JF

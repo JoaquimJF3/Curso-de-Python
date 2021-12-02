@@ -1,0 +1,5 @@
+print('='*20, 'DESAFIO 6', '='*20)
+n = int(input('Digite um número: '))
+print('O Dobro de \033[1;32m{} vale {}\033[m'.format(n, (n*2)))
+print('O Triplo de \033[1;34m{} vale {}\033[m'.format(n, (n*3)))
+print('A Raiz Quadrada de \033[1;31m{} é igual a {:.2f}\033[m'.format(n, (n**(1/2))))
