@@ -1,0 +1,16 @@
+=================== Vetores ====================
+Tuplas () => são inmutáveis
+Listas [] => são mutáveis
+append('cock') => adiciona um elemento no fim da lista.
+insert(0, 'hatdog') => adiciona um elemento no inicio da lista.
+del lanche[3] => elimina o elemento desejado.
+lanche.pop(3) => elimina o ultimo elemento.(pop())
+lanche.remove('pizza') => elimina o elemento dentro da lista.
+if pizza in lanche:
+    lanche.remove('pizza')
+Criando lista atráves de Laço de Repetição:
+valores = list(range(4, 11))
+valores = [8,2,5,4,9,3,0] adicionando valores manualmente
+valores.sort() = ordenando os valores
+valores.sort(reverse=True) = invertendo a ordem dos valores
+len(valores) => Quantos elementos tem a lista
